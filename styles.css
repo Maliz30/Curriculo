@@ -109,3 +109,160 @@ body{
     font-weight: 400;
     margin-left: 0%;
 }
+
+/*Geral*/
+.contentBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 13vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+/*Experiência*/
+
+/* #expBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 13vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+} */
+
+.titleH2{
+    font-size: 2.3em;
+    font-weight: 700;
+    margin: 0%;
+    margin-top: 0.8em;
+}
+
+.experienceListElementTitle{
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 0%;
+    margin-top: 0.8em;
+}
+
+.experienceList, .experienceListElement{
+    padding: 0em 0em;
+    margin: 0em 0em;
+    margin-left: 1em;
+    
+}
+
+.experienceListElementEnterprise, .academicListElementLocal{
+    font-size: 1.6em;
+    font-weight: 500;
+    margin: 0%;
+    margin-top: 0.2em;
+}
+
+/* .description{
+    margin-left: 1.8em;
+} */
+
+.experienceListElementDescription{
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-top: 0.4em;
+    margin-bottom: 0.6em;
+}
+
+.experienceListElementLink{
+    font-size: 1.4em;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.skillsList{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: 0.4em;
+    margin-bottom: 0.6em;
+}
+
+.academicListElementTitle{
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 0%;
+    margin-top: 0.8em;
+}
+
+.academicListElementDescription{
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 0%;
+    opacity: 70%;
+    margin-bottom: 0.3em;
+}
+
+.academicListElementLink{
+    font-size: 1.4em;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.academicList{
+    margin-bottom: 3.2em;
+}
+
+/*Projetos*/
+.project{
+    margin: 4em;
+    padding: 1.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3em;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.projectIndividualBox{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectTitle{
+    margin: 0%;
+    margin-bottom: 0.7em;
+}
+
+.projectInfos-left, .projectInfos-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectImage{
+    width: 40vw;
+    height: 50vh;
+}
+
+.projectInfosRight{
+    margin-left: 2em;
+}
+
+.projectDescription{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0%;
+    margin-bottom: 1.4em;
+}
+
+.projectLink{
+    font-size: 1.5em;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
